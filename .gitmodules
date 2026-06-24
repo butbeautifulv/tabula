@@ -1,0 +1,3 @@
+[submodule "fstec"]
+	path = fstec
+	url = https://github.com/butbeautifulv/fstec.git
