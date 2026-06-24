@@ -25,7 +25,8 @@ Thin overlay: `.agents/rules/tabula-agent-workflow.mdc` + `make rules-link` from
 ## Branches
 
 - Tabula umbrella: `tabula/phase-NN-<slug>`
-- FSTEC product: `fstec/phase-NN-<slug>` or `fstec/gui-detach-wip` for GUI migration
+- FSTEC product: `fstec/phase-NN-<slug>`
+- **Dead:** `fstec/gui-detach-wip` — abandoned (shared/gui consumer broke UI polish; do not use)
 
 ## Verify (fstec)
 
