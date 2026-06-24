@@ -1,0 +1,27 @@
+---
+description: Tabula compliance domain — umbrella workflow overlay
+globs:
+alwaysApply: true
+---
+
+# Tabula agent workflow
+
+Compliance domain umbrella. Primary product: **fstec** (`fstec/` submodule).
+
+## Context
+
+- Work inside `fstec/` for product changes — follow fstec AGENTS/plans
+- GUI primitives come from cxado `shared/gui` (`@cxado/gui`)
+- Tabula repo holds domain docs and submodule wiring only
+
+## Branches
+
+`tabula/phase-NN-<slug>` for umbrella changes; fstec uses `fstec/*` branches.
+
+## Verify (fstec)
+
+```bash
+cd fstec && npm run typecheck && npm run build
+```
+
+Core rules: symlinked via `make rules-link` from cxado meta-repo.
